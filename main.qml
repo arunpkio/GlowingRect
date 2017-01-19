@@ -31,39 +31,39 @@ ApplicationWindow {
             loops: Animation.Infinite
 
             PropertyAnimation {
-                targets: effect
+                targets: [ effect, glows]
                 property: "color"
                 to: "#55ff55"
                 duration: 500
 
             }
             PropertyAnimation {
-                targets: effect
+                targets: [ effect, glows]
                 property: "color"
                 to: "#5555ff"
                 duration: 500
             }
 
             PropertyAnimation {
-                targets: effect
+                targets: [ effect, glows]
                 property: "color"
                 to: "#ff5555"
                 duration: 500
             }
             PropertyAnimation {
-                targets: effect
+                targets: [ effect, glows]
                 property: "color"
                 to: "#55ffff"
                 duration: 500
             }
             PropertyAnimation {
-                targets: effect
+                targets: [ effect, glows]
                 property: "color"
                 to: "#ff55ff"
                 duration: 500
             }
             PropertyAnimation {
-                targets: effect
+                targets: [ effect, glows]
                 property: "color"
                 to: "#ffff55"
                 duration: 500
